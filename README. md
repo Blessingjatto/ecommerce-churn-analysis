@@ -1,0 +1,40 @@
+# Executive E-Commerce Customer Churn & Retention Analysis
+
+## 📌 Executive Summary
+This project delivers an end-to-end data analytics pipeline designed to evaluate customer churn, analyze the financial impact of active retention programs, and isolate high-risk customer accounts for executive intervention.
+
+The workflow integrates raw database extraction via **SQL Server**, statistical exploratory data analysis (EDA) using **Python**, and an interactive executive dashboard created in **Power BI Desktop**.
+
+---
+
+## 🛠️ Tech Stack & Data Pipeline
+* **Database Querying (SQL Server):** Extracted and cleansed data metrics from `portfolio_db`, answering 6 core business objectives and performance metrics.
+* **Exploratory Data Analysis and Predictive Churn Model (Python):** Utilized `pandas` and `seaborn`/`matplotlib` to evaluate statistical exploratory analysis and build a predictive classification model to forecast customer churn risk.
+* **Visualization Layer (Power BI):** Built an interactive, executive 2-part dashboard featuring KPI cards, dynamic prevention tile slicers, retention driver bar charts, and a high-risk account ledger.
+
+---
+
+## 📊 Key Business Insights
+1. **Retention Strategy Impact:** Compared customer churn rates across core retention channels (*Customer Service Calls, Discount Offers, Free Trials, Loyalty Points, Special Promotions*).
+2. **Revenue Risk Identification:** Quantified accounts with low satisfaction scores ($\le 2$) to enable immediate targeted outreach by account management teams.
+3. **Strategic Recommendations:** Reallocating retention budgets toward high-converting prevention channels while deploying account managers to high-value accounts in the risk table.
+
+---
+
+## 📸 Executive Dashboard Preview
+
+
+![Executive Dashboard Preview](dashboard_preview.png)
+
+---
+
+## 📂 Repository Structure
+```text
+├── 1_sql/
+│   ├── churn_data_extraction.sql
+│   └── risk_matrix_query.sql
+├── 2_python/
+│   └── eda_churn_correlation.ipynb
+├── 3_power_bi/
+│   └── Executive_Churn_Retention_Dashboard.pbix
+└── README.md
