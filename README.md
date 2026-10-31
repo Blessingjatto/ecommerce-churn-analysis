@@ -37,3 +37,10 @@ The workflow integrates raw database extraction via **SQL Server**, statistical 
 ├── 3_power_bi/
 │   └── Executive_Churn_Retention_Dashboard.pbix
 └── README.md
+```
+
+---
+
+## Project Files
+[SQL queries](ecommerce_churn_analysis.sql)
+[Python notebook](ecommerce_churn_analysis.ipynb)
